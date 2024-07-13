@@ -1,3 +1,5 @@
+package EX_07072024;
+
 public class Invalidsyntaxprogram {
 //    public static void main(String args[]) {
   //      System.out.println("Not Working");
