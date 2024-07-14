@@ -1,6 +1,6 @@
 package EX_13072024;
 
-public class Lab03 {
+public class Booleanprogram {
     public static void main(String[] args) {
 
         boolean b = true;

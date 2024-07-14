@@ -14,5 +14,6 @@ public class Decrementoperator {
         // B - a--  Exp = 5 | a = 4
         // C - a--  Exp = 4 | a = 3
         System.out.println(a);
+
     }
 }
