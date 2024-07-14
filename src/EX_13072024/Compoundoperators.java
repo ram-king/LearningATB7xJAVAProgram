@@ -6,9 +6,9 @@ public class Compoundoperators {
         int a = 20;
         // += , -=, /=, *= , %=
         System.out.println(a+=10); // a = a+10
-        System.out.println(a-=10); // a = a-10
+        System.out.println(a-=10); // a = a-10 not performing substraction
         System.out.println(a*=10); // a = a*10
-        System.out.println(a/=10); // a = a/10
+        System.out.println(a/=10); // a = a/10 not performing division
         System.out.println(a%=10); // a = a%10
 
     }
