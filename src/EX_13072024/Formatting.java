@@ -9,9 +9,7 @@ public class Formatting {
         // %s -> String
         // %c -> char
         // %f -> float
-        System.out.printf("My age is -> %d",age);
-        char nl = '\n';
-        System.out.println(nl);
+        System.out.printf("My age is -> %d\n",age);
         String Gender = "Gender is Male";
         System.out.println(Gender);
 
