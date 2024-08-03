@@ -22,7 +22,7 @@ public class Conditions {
         if (2+3 == 6){
             System.out.println("fool"); // here there is no relation with 'a' as we're not calling it
         }else {
-            System.out.println("clever");
+            System.out.println("clever"); // as the condition always false this will get print
         }
         boolean a1 = true;
         a1 = !a1;

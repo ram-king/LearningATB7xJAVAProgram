@@ -4,13 +4,9 @@ import java.util.Scanner;
 
 public class Cond3 {
     public static void main(String[] args) {
-        // Finding Divisible or Not using User input and condition
-        Scanner sc = new Scanner(System.in); // scanner class is pre-defined in Java
-        System.out.println("Enter your input");
-        int a = sc.nextInt();
-        if (a%3 == 0){
-            System.out.println("It's Divisible");
-        }else {
-            System.out.println("It's Not Divisible");
-        }
-}}
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your age");
+        int age = sc.nextInt();
+
+       }
+}
