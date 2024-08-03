@@ -5,7 +5,6 @@ public class Loops {
         int a = 0;
         for (; a < 10; a++) {
             System.out.println(a);
-
         }
         for (; a < 20 ; a++) {
             System.out.println(a);
@@ -13,6 +12,5 @@ public class Loops {
                 break;
             }
         }
-
     }
 }
