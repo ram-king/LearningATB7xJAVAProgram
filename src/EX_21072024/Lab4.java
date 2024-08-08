@@ -6,8 +6,10 @@ public class Lab4 {
         int ram1 = 33;
         String name = "Ram";
 
-        for (int i = 1; i < 6; i++) { // 1 to 5
-            System.out.println(i); /// 5<5
+        for (int ram_kumar = 1; ram_kumar < 6; ram_kumar++) //variable name can be anything -
+                                                            // here ram_kumar is variable name
+        {
+            System.out.println(ram_kumar);
         }
     }
 }
