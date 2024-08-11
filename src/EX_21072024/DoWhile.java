@@ -5,16 +5,22 @@ public class DoWhile {
         // while, for -?
         // do while - while - 1 change - minor change
 
-        // While -> int -> condition -> body -> increment / decrement
+        // While -> initialisation -> condition -> body -> increment / decrement
 
-        // Do While
-        // int -> body -> condition -> incre / drement
+        int i = 1;
+        while (i < 10) {
+            System.out.println(i);
+            i++;
+        }  // while not execute for the given condition is always false
 
-        int a = 0;
-        do {
-            System.out.println(a);
-            a++;
-        }while(a < 10);
-        System.out.println(a);
+            // Do While
+            // initialisation -> body -> condition -> increment / decrement
+
+            int a = 1;
+            do {
+                System.out.println(a); //do always run one time only
+                a++;
+            } while (a < 10);  // here while condition is true then do loop repeat
+
+        }
     }
-}
