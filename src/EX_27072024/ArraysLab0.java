@@ -1,6 +1,6 @@
 package EX_27072024;
 
-public class Arrays {
+public class ArraysLab0 {
     public static void main(String[] args) {
         // Syntax of Arrays -> "dataType[] arrayName;"
         // Data Types
@@ -25,5 +25,6 @@ public class Arrays {
         // greetme -> greetMe
 
     }
-    }
+
+}
 
