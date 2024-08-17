@@ -14,10 +14,9 @@ public class LeftSideTriangle {
 //        }
 //        }
 //        }
-        String symbol = " ";
         for (int i = 5; i >=1 ; i--) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            System.out.println(symbol);
+            System.out.println("\t");
         }}}
