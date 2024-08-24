@@ -12,7 +12,7 @@ public class Person {
 
     // Behavior / > Methods (function within the class)
     void walk() {
-        System.out.println(name+ "-> Can Walk");
+        System.out.println("Can Walk");
     }
 
     void talk() {

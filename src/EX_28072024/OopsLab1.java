@@ -25,19 +25,22 @@ public class OopsLab1 {
     person1.sleep();
     person1.talk();
     person1.walk();
-    person1.gender = "Male\t";
-    person1.hands = "Two Hands\t";
-        System.out.println(person1.name + person1.gender + person1.hands + person1.roll_no);
+    person1.gender = "Male";
+    person1.hands = "Two Hands";
+        System.out.println(person1.name + person1.gender + "\nCan Write with "+person1.hands + "\nRoll No. "+person1.roll_no);
 
 
     Person person2 = new Person();
     // Real thing class -> Object
     person2.name = "Pramod";
     person2.roll_no = 2;
+    person2.hands= "Two Hands";
     person2.walk();
     person2.talk();
     person2.sleep();
     person2.read();
+        System.out.println(person2.name + "\nCan Write with "+person2.hands + "\nRoll No. "+person2.roll_no);
 
-}
+
+    }
 }
