@@ -11,7 +11,7 @@ public class Bank {
     int balance;
 
     // Behaviour of Bank i.e. functions
-    void deposit(){
+    public void deposit(){
         if (customer_age>=18){
         System.out.println("You can deposit money");
     }else {
