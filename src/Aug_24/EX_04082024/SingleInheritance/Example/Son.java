@@ -1,4 +1,4 @@
-package Aug_24.EX_04082024.SingleInheritance;
+package Aug_24.EX_04082024.SingleInheritance.Example;
 
 public class Son extends Father{
     void bhk3(){
