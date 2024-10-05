@@ -7,7 +7,6 @@ public class Lab01 {
     Lab01(){
         System.out.println("If constructor created, I'll be called");
     }
-
     public static void main(String[] args) {
         // Constructors
         // 1. default - 70%
@@ -20,6 +19,7 @@ public class Lab01 {
         System.out.println(lab01); // Reference value will be printed
 
         Bank a1=new Bank(); // from any package constructor can be called if it was public
+        System.out.println(a1); // Reference value will be printed
         a1.deposit();
         // a1.fixedDeposit(); here this function didn't make public so cannot be called
 

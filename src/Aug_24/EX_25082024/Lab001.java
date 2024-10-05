@@ -6,8 +6,8 @@ public class Lab001 {
 
         // URL - https://abc.com/xyz/?q=1#anchhr=09
         //
-        //Which one is path param - xyz
-        //Which one is query param - #anchhr=09
+        //Which one is path parameter - xyz
+        //Which one is query parameter - #anchhr=09
 
     }
 }

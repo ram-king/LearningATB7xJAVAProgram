@@ -3,6 +3,7 @@ package Aug_24.EX_04082024;
 import java.util.Scanner;
 
 public class Lab07 {
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

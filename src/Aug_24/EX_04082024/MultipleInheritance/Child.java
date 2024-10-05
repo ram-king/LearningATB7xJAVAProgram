@@ -7,5 +7,6 @@ public class Child //extends Father,Mother
 //        money();
     }
     // Here child cannot extend at a time both parents
+    // this problem can be solved by using "Interface" extension in later classes
 
 }

@@ -1,4 +1,4 @@
-package Aug_24.EX_04082024.SingleInheritance.Testing;
+package Aug_24.EX_04082024.MultiLevelInheritance.Testing;
 
 public class GrandBase {
     int gold = 3;

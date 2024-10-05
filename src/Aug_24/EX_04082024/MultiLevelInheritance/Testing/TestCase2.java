@@ -1,11 +1,11 @@
-package Aug_24.EX_04082024.SingleInheritance.Testing;
+package Aug_24.EX_04082024.MultiLevelInheritance.Testing;
 
 public class TestCase2 extends BaseTest{
 
     void testCase2(){
         startBrowser();// BaseTest
         getDataFromSQL(); // GrandBaseTest
-        System.out.println(gold); // GrandBaseTest
+        System.out.println(gold+"Kg gold take"); // GrandBaseTest
         // Here we will write the TC
         closeBrowser();
     }

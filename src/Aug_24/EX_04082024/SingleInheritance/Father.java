@@ -1,4 +1,4 @@
-package Aug_24.EX_04082024.SingleInheritance.Example;
+package Aug_24.EX_04082024.SingleInheritance;
 
 public class Father {
     void bhk2(){

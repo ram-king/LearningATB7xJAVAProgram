@@ -3,6 +3,7 @@ package July_24.EX_28072024;
 import java.util.Scanner;
 
 public class LeapYear {
+
     public static void main(String[] args) {
         // Create a program that determines whether a given year is a leap year.
         // A leap year is divisible by 4,
