@@ -1,5 +1,12 @@
 package Aug_24.EX_10082024.Encapsulation;
-// Encapsulation Concept
+
+// Encapsulation Concept - bundling of data, methods that operates on that data within a single unit
+
+//Advantages of Encapsulation
+// 1. Data Hiding
+// 2. Increased Flexibility i.e. read-only /write-only you can decide
+// 3. Security/privacy
+
 public class Encaps {
     public static void main(String[] args) {
         VWOLogin vwologin = new VWOLogin("admin", "password123");

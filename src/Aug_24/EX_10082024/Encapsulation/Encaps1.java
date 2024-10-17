@@ -18,7 +18,8 @@ class VWOLogin1 {
     private String password;
     // here username and password both are data members it should not access by everyone
     // so to access them we need a getter-setter methods which are public in nature but limited
-    // By using getter-setter methods I can control who can get data and who can set data
+    // By using getter-setter methods WE can control who can get data and who can set data
+    // Getter-setter can be used in web-automation page class and API automation pojo class
     public String getUsername() {
         return username;
     }
@@ -39,9 +40,11 @@ class VWOLogin1 {
             System.out.println("....Not Allowed!....");
         }
     }
+
     // Parameterized constructor
     public VWOLogin1(String username, String password){
         this.username=username;
         this.password=password;
     }
+
 }
